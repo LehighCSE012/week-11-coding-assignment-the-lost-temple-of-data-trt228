@@ -7,8 +7,8 @@ This module provides functions to process archaeological data files including:
 - Text journal entries with dates and secret codes
 """
 
-import pandas as pd
 import re
+import pandas as pd
 
 def load_artifact_data(excel_filepath):
     """
